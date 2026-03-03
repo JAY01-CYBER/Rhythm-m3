@@ -90,9 +90,9 @@ body:
       description: If applicable, include relevant log output or error messages.
       render: shell
 
-  - type: checkboxes
+  - type: textarea
     id: screenshots
     attributes:
       label: Screenshots
       options:
-        - label: attach screenshots below if necessary
+        - label: attach screenshots here if necessary
