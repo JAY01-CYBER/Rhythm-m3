@@ -13636,6 +13636,10 @@ fun HomeScreenCustomizationSettingsScreen(onBackClick: () -> Unit) {
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()
+                            .clickable {
+                                HapticUtils.performHapticFeedback(context, haptic, HapticFeedbackType.TextHandleMove)
+                                appSettings.setHomeShowGreeting(!showGreeting)
+                            }
                             .padding(20.dp),
                         horizontalArrangement = Arrangement.SpaceBetween,
                         verticalAlignment = Alignment.CenterVertically
@@ -13677,7 +13681,7 @@ fun HomeScreenCustomizationSettingsScreen(onBackClick: () -> Unit) {
                                 )
                             }
                         }
-                        Switch(
+                        TunerAnimatedSwitch(
                             checked = showGreeting,
                             onCheckedChange = {
                                 HapticUtils.performHapticFeedback(context, haptic, HapticFeedbackType.TextHandleMove)

@@ -1839,8 +1839,8 @@ private fun ModernFeaturedSection(
                             else -> carouselHeight.dp
                         })
                         .padding(vertical = 8.dp),
-                    itemSpacing = 16.dp,
-                    contentPadding = PaddingValues(horizontal = 32.dp),
+                    itemSpacing = 8.dp,
+                    contentPadding = PaddingValues(horizontal = 0.dp),
                     flingBehavior = CarouselDefaults.singleAdvanceFlingBehavior(state = carouselState)
                 ) { itemIndex ->
                     val album = albums[itemIndex]
@@ -1875,8 +1875,8 @@ private fun ModernFeaturedSection(
                             else -> carouselHeight.dp
                         })
                         .padding(vertical = 8.dp),
-                    itemSpacing = 12.dp,
-                    contentPadding = PaddingValues(horizontal = 40.dp),
+                    itemSpacing = 8.dp,
+                    contentPadding = PaddingValues(horizontal = 0.dp),
                     flingBehavior = CarouselDefaults.singleAdvanceFlingBehavior(state = carouselState)
                 ) { itemIndex ->
                     val album = albums[itemIndex]

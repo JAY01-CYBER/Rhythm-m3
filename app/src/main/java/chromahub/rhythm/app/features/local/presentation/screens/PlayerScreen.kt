@@ -997,8 +997,30 @@ fun PlayerScreen(
             onEqualizer = { navController.navigate(Screen.Equalizer.route) },
             onSleepTimer = { showSleepTimerBottomSheet = true },
             onLyricsEditor = { showLyricsEditorDialog = true },
-            onAlbum = onShowAlbumBottomSheet,
-            onArtist = onShowArtistBottomSheet,
+            onAlbum = {
+                song?.let { currentSong ->
+                    val albumForSong = albums.find { it.title == currentSong.album }
+                    albumForSong?.let {
+                        selectedAlbum = it
+                        showAlbumSheet = true
+                    }
+                }
+            },
+            onArtist = {
+                song?.let { currentSong ->
+                    val artistForSong = if (groupByAlbumArtist) {
+                        val songArtistName = (currentSong.albumArtist?.takeIf { it.isNotBlank() } ?: currentSong.artist).trim()
+                        artists.find { it.name == songArtistName }
+                    } else {
+                        val songArtistNames = splitArtistNames(currentSong.artist)
+                        artists.find { artist -> songArtistNames.any { it.equals(artist.name, ignoreCase = true) } }
+                    }
+                    artistForSong?.let {
+                        selectedArtist = it
+                        showArtistSheet = true
+                    }
+                }
+            },
             onCast = { showCastBottomSheet = true },
             onSongInfo = { showSongInfoSheet = true },
             haptic = haptic,
