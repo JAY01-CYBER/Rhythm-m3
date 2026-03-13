@@ -271,7 +271,7 @@
     <string name="status_disabled">Disabled</string>
     
     <!-- HomeScreen -->
-    <string name="home_title">Rhythm</string>
+    <string name="home_title">Glossy</string>
     <string name="home_settings_cd">Settings</string>
     <string name="home_discover_albums">Discover Albums</string>
     <string name="home_explore_music">Explore amazing music</string>
