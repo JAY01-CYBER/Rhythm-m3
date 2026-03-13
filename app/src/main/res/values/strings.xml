@@ -2258,7 +2258,7 @@
     <string name="updates_status_disabled">Updates Disabled</string>
     <string name="updates_status_manual">Manual Check</string>
     <string name="updates_status_up_to_date">Up to Date</string>
-    <string name="updates_rhythm_logo_cd">Rhythm Logo</string>
+    <string name="updates_rhythm_logo_cd">Glossy Logo</string>
     <string name="updates_version_prefix">V %1$s</string>
     <string name="updates_released_prefix">Released: %1$s</string>
     <string name="updates_unknown_error">Unknown error occurred</string>
