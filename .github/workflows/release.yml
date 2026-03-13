@@ -1,4 +1,4 @@
-name: Stable Release APK
+name: Glossy Release
 
 on:
   workflow_dispatch:
@@ -23,22 +23,22 @@ jobs:
       - name: Grant execute permission
         run: chmod +x gradlew
 
-      - name: Build GitHub release APK
+      - name: Build Glossy release APK
         run: ./gradlew assembleGithubRelease
 
-      - name: Upload release artifact
+      - name: Upload Glossy release artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Rhythm-m3-release
+          name: Glossy-release
           path: app/build/outputs/apk/github/release/*.apk
 
-      - name: Set tag
+      - name: Set tag name
         run: echo "TAG_NAME=v${GITHUB_RUN_NUMBER}" >> $GITHUB_ENV
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.TAG_NAME }}
-          name: Stable ${{ env.TAG_NAME }}
+          name: Glossy ${{ env.TAG_NAME }}
           generate_release_notes: true
           files: app/build/outputs/apk/github/release/*.apk
