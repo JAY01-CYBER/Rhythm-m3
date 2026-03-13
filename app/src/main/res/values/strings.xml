@@ -1023,7 +1023,7 @@
     <string name="updates_disabled_message">App updates have been disabled in settings</string>
     <string name="updates_auto_disabled">Automatic update checking is disabled. You can still check manually.</string>
     <string name="updates_up_to_date_message">You are up to date!</string>
-    <string name="updates_check_frequency">How often should Rhythm check for updates?</string>
+    <string name="updates_check_frequency">How often should Glossy check for updates?</string>
     <string name="updates_experimental_coming">More experimental features coming soon in future updates</string>
     
     <!-- Cache -->
