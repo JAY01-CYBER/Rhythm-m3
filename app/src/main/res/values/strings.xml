@@ -2272,7 +2272,6 @@
     <string name="settings_periodic_check_desc">Automatically check for updates from Glossy's GitHub repo</string>
     <string name="settings_update_notifications">Update Notifications</string>
     <string name="settings_update_notifications_desc">Get notified when new versions are available</string>
-    <string name="settings_audio_routing_system_desc">Uses Android system audio routing. Audio may be resampled to 48 kHz by the OS mixer.</string>
     <string name="settings_smart_polling">Smart Polling</string>
     <string name="settings_smart_polling_desc">Use efficient checks to save GitHub API calls</string>
     <string name="settings_update_channel">Update Channel</string>
