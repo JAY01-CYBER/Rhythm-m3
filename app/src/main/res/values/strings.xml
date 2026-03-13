@@ -2269,7 +2269,7 @@
     <string name="settings_enable_updates">Enable Updates</string>
     <string name="settings_enable_updates_desc">Allow the app to check for and download updates</string>
     <string name="settings_periodic_check">Periodic Check</string>
-    <string name="settings_periodic_check_desc">Automatically check for updates from Glossy's GitHub repo</string>
+    <string name="settings_periodic_check_desc">Automatically check for updates from Rhythm\'s GitHub repo</string>
     <string name="settings_update_notifications">Update Notifications</string>
     <string name="settings_update_notifications_desc">Get notified when new versions are available</string>
     <string name="settings_smart_polling">Smart Polling</string>
