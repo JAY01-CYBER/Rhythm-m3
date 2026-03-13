@@ -8,7 +8,7 @@
     <string name="settings">Settings</string>
     
     <!-- Media3 notification configuration -->
-    <string name="media3_notification_channel_name">Rhythm Music</string>
+    <string name="media3_notification_channel_name">Glossy Music</string>
     <string name="media3_notification_channel_description">Media playback controls</string>
     
     <!-- Widget strings -->
