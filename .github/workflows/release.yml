@@ -1,4 +1,4 @@
-name: Glossy Release
+name: Release APKs
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ permissions:
   contents: write
 
 jobs:
-  release:
+  build-release:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,31 +20,53 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - name: Grant execute permission
-        run: chmod +x gradlew
+      - name: Grant execute permission to gradlew
+        run: chmod +x ./gradlew
 
-      - name: Set version tag
-        run: echo "TAG_NAME=v${GITHUB_RUN_NUMBER}" >> $GITHUB_ENV
-
-      - name: Build Glossy release APK
+      - name: Build githubRelease APKs
         run: ./gradlew assembleGithubRelease
 
-      - name: Rename APK
-        run: |
-          mkdir -p release-output
-          APK_FILE=$(find app/build/outputs/apk/github/release -name "*.apk" | head -n 1)
-          cp "$APK_FILE" "release-output/Glossy-${TAG_NAME}.apk"
+      - name: List generated APKs
+        run: find app/build/outputs/apk -type f -name "*.apk"
 
-      - name: Upload Glossy release artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: Glossy-release
-          path: release-output/Glossy-*.apk
+      - name: Collect release APKs
+        run: |
+          mkdir -p release-apks
+
+          find app/build/outputs/apk -type f -name "*github*release*.apk" | while read file; do
+            name=$(basename "$file")
+
+            if [[ "$name" == *"armeabi-v7a"* ]]; then
+              cp "$file" "release-apks/Glossy-v1.0.0-github-armeabi-v7a.apk"
+            elif [[ "$name" == *"arm64-v8a"* ]]; then
+              cp "$file" "release-apks/Glossy-v1.0.0-github-arm64-v8a.apk"
+            elif [[ "$name" == *"universal"* ]]; then
+              cp "$file" "release-apks/Glossy-v1.0.0-github-universal.apk"
+            fi
+          done
+
+          ls -lah release-apks
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ env.TAG_NAME }}
-          name: Glossy ${{ env.TAG_NAME }}
-          generate_release_notes: true
-          files: release-output/Glossy-*.apk
+          tag_name: v1.0.0
+          name: Glossy v1.0.0
+          body: |
+            **What's New:**
+            - Initial stable release of Glossy
+            - GitHub updater now uses Glossy repository
+            - Added release builds for armeabi-v7a, arm64-v8a and universal
+            - General fixes and improvements
+
+            **Known Issues:**
+            - None for now
+
+            **Build Information:**
+            - Channel: Stable
+            - Variant: github
+            - Version: v1.0.0
+          files: |
+            release-apks/*.apk
+          draft: false
+          prerelease: false
