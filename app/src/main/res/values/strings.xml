@@ -238,7 +238,7 @@
     <string name="settings_about_team_chromahub">Team ChromaHub</string>
     <string name="settings_about_special_thanks">Special Thanks</string>
     <string name="settings_about_community">Community</string>
-    <string name="settings_about_community_desc">Special thanks to our amazing community members who have contributed to making Rhythm better through testing, feedback, suggestions, and collaboration.</string>
+    <string name="settings_about_community_desc">Special thanks to our amazing community members who have contributed to making Glossy better through testing, feedback, suggestions, and collaboration.</string>
     <string name="settings_about_contributor_izzy_name">Izzy</string>
     <string name="settings_about_contributor_izzy_role">Manages updates on IzzyOnDroid</string>
     <string name="settings_about_contributor_christian_name">Christian</string>
