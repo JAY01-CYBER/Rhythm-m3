@@ -48,11 +48,12 @@ interface GitHubApiService {
      * @return List of releases
      */
     @GET("repos/{owner}/{repo}/releases")
-    suspend fun getReleases(
-        @Path("owner") owner: String,
-        @Path("repo") repo: String,
-        @Query("per_page") perPage: Int = 10
-    ): Response<List<GitHubRelease>>
+suspend fun getReleases(
+    @Path("owner") owner: String,
+    @Path("repo") repo: String,
+    @Query("per_page") perPage: Int = 10,
+    @Header("Authorization") authToken: String? = null
+): Response<List<GitHubRelease>>
     
     /**
      * Fetch only the latest release
