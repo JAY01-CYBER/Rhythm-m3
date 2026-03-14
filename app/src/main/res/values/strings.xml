@@ -1363,7 +1363,7 @@
     <string name="cd_albums">Albums</string>
     <string name="cd_artists">Artists</string>
     <string name="cd_songs">Songs</string>
-    <string name="cd_rhythm_splash">Rhythm</string>
+    <string name="cd_rhythm_splash">Glossy</string>
     <string name="cd_search_in_playlist">Search songs in playlist</string>
     <string name="cd_shuffle_play_action">Shuffle play</string>
     <string name="cd_add_songs_to_playlist">Add songs to playlist</string>
