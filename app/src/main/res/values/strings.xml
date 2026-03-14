@@ -1955,7 +1955,7 @@
     <string name="backup_unable_to_read">Unable to read the backup file</string>
     <string name="backup_restore_failed">Failed to restore from file: %1$s</string>
     <string name="backup_create_failed">Failed to create backup: %1$s</string>
-    <string name="backup_clipboard_label">Rhythm Backup</string>
+    <string name="backup_clipboard_label">Glossy Backup</string>
     <string name="backup_status_never">Never</string>
     <string name="backup_status_enabled">Enabled</string>
     <string name="backup_status_manual">Manual</string>
