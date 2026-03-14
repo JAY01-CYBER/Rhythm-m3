@@ -54,7 +54,6 @@ android {
             buildConfigField("boolean", "ENABLE_SPOTIFY_SEARCH", "true")
             buildConfigField("String", "FLAVOR", "\"github\"")
             
-            versionNameSuffix = "-gh"
         }
     }
 
