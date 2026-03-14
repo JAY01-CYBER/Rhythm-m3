@@ -624,8 +624,8 @@
     <string name="onboarding_grant_permissions">Grant Permissions</string>
     <string name="onboarding_permissions_granted_desc">All necessary permissions have been granted. You are ready to proceed!</string>
     <string name="onboarding_redirect_settings_desc">To grant the required permissions, please navigate to the app settings on your device.</string>
-    <string name="onboarding_rationale_desc">Rhythm requires certain permissions to function correctly. Please grant them to continue.</string>
-    <string name="onboarding_permissions_required_desc">To fully utilize Rhythm\'s features, we need your permission to access certain device capabilities.</string>
+    <string name="onboarding_rationale_desc">Glossy requires certain permissions to function correctly. Please grant them to continue.</string>
+    <string name="onboarding_permissions_required_desc">To fully utilize Glossy\'s features, we need your permission to access certain device capabilities.</string>
     <string name="onboarding_permission_music_title">Music Library Access</string>
     <string name="onboarding_permission_music_desc">Read your local music files and display them in the app</string>
     <string name="onboarding_permission_bluetooth_title">Bluetooth Connectivity</string>
@@ -637,15 +637,15 @@
     <string name="onboarding_permission_tips">Permission Tips</string>
     <string name="onboarding_permission_tip_1">Grant all permissions for the best experience</string>
     <string name="onboarding_permission_tip_2">You can change permissions later in Settings</string>
-    <string name="onboarding_permission_tip_3">Rhythm respects your privacy and data</string>
+    <string name="onboarding_permission_tip_3">Glossy respects your privacy and data</string>
     
     <!-- Onboarding Audio &amp; Playback -->
     <string name="onboarding_haptic_title">Haptic Feedback</string>
     <string name="onboarding_haptic_desc">Enable subtle vibrations on interactions for a more tactile experience.</string>
     <string name="onboarding_default_screen_title">Default Landing Screen</string>
-    <string name="onboarding_default_screen_desc">Choose which screen opens when you launch Rhythm</string>
+    <string name="onboarding_default_screen_desc">Choose which screen opens when you launch Glossy</string>
     <string name="onboarding_system_volume_title">System Volume Control</string>
-    <string name="onboarding_system_volume_desc">Allow your device\'s physical volume buttons to control Rhythm\'s playback volume.</string>
+    <string name="onboarding_system_volume_desc">Allow your device\'s physical volume buttons to control Glossy\'s playback volume.</string>
     <string name="onboarding_auto_queue_title">Auto Add to Queue</string>
     <string name="onboarding_auto_queue_desc">Automatically create a contextual queue from the album/artist when playing a song.</string>
     <string name="onboarding_clear_queue_title">Clear Queue on New Song</string>
@@ -684,7 +684,7 @@
     <string name="onboarding_enable_updates_title">Enable Updates</string>
     <string name="onboarding_enable_updates_desc">Allow the app to check for and download updates</string>
     <string name="onboarding_periodic_check_title">Periodic Check</string>
-    <string name="onboarding_periodic_check_desc">Check for updates from Rhythm\'s GitHub repo automatically</string>
+    <string name="onboarding_periodic_check_desc">Check for updates from Rhythm-m3\'s GitHub repo automatically</string>
     <string name="onboarding_update_notifications_title">Update Notifications</string>
     <string name="onboarding_update_notifications_desc">Get notified when new versions are available</string>
     <string name="onboarding_smart_polling_title">Smart Polling</string>
@@ -724,11 +724,11 @@
     
     <!-- Onboarding: Notifications Step -->
     <string name="onboarding_notifications_title">Playback Notifications</string>
-    <string name="onboarding_notifications_desc">Control how Rhythm displays music playback in your notification shade. Choose between custom styled notifications or the standard system media controls.</string>
+    <string name="onboarding_notifications_desc">Control how Glossy displays music playback in your notification shade. Choose between custom styled notifications or the standard system media controls.</string>
     <string name="onboarding_custom_notifications">Custom Notification Style</string>
-    <string name="onboarding_custom_notifications_desc">Use Rhythm\'s enhanced notification design with additional controls and styling</string>
+    <string name="onboarding_custom_notifications_desc">Use Glossy\'s enhanced notification design with additional controls and styling</string>
     <string name="onboarding_notifications_info_title">Notification Features</string>
-    <string name="onboarding_notification_tip_1">See current track info at a glance</string>
+    <string name="onboarding_notification_tip_1">See current track in\u003Cstring name=\"onboarding_tab_order_title\">Library Tab Order\u003C/string>fo at a glance</string>
     <string name="onboarding_notification_tip_2">Control playback with quick actions</string>
     <string name="onboarding_notification_tip_3">Custom style matches your theme</string>
     
@@ -751,7 +751,7 @@
     
     <!-- Onboarding: Widgets Step -->
     <string name="onboarding_widgets_title">Launcher Widgets</string>
-    <string name="onboarding_widgets_desc">Add Rhythm widgets to your launcher for quick music control. Customize what information is displayed and how the widget looks.</string>
+    <string name="onboarding_widgets_desc">Add Glossy widgets to your launcher for quick music control. Customize what information is displayed and how the widget looks.</string>
     <string name="onboarding_widget_album_art">Show Album Art</string>
     <string name="onboarding_widget_album_art_desc">Display album artwork in the widget</string>
     <string name="onboarding_widget_artist">Show Artist Name</string>
@@ -788,7 +788,7 @@
     <string name="onboarding_integrations_info_desc">These features send limited data (song titles, artists) to external services. Your personal data and music files stay on your device. You can enable or disable these at any time in Settings.</string>
     
     <!-- Onboarding: Rhythm Stats Step -->
-    <string name="onboarding_stats_title">Rhythm Stats</string>
+    <string name="onboarding_stats_title">Glossy Stats</string>
     <string name="onboarding_stats_desc">Discover insights about your music habits. Track your listening time, most played songs, favorite artists, and more with beautiful visualizations.</string>
     <string name="onboarding_stats_show_home">Show Stats on Home</string>
     <string name="onboarding_stats_show_home_desc">Display a listening stats widget on your home screen</string>
