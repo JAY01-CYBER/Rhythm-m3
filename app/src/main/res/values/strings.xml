@@ -2154,7 +2154,7 @@
     <string name="settings_snowflake_display_area">Snowflake Display Area</string>
     <string name="settings_snowflake_size">Snowflake Size</string>
     <string name="settings_toggle_decoration_elements">Toggle individual decoration elements by position</string>
-    <string name="settings_multi_artist_parsing_info">When enabled, Rhythm will automatically split artist tags containing multiple artists. This is useful for songs downloaded with yt-dlp or other tools that use delimiters like \'/\' to separate artists.\n\nBackslash (\\) can be used to escape delimiters.</string>
+    <string name="settings_multi_artist_parsing_info">When enabled, Glossy will automatically split artist tags containing multiple artists. This is useful for songs downloaded with yt-dlp or other tools that use delimiters like \'/\' to separate artists.\n\nBackslash (\\) can be used to escape delimiters.</string>
     <string name="settings_embedded_lyrics_info">• Embedded lyrics are stored in your audio files\n</string>
     <string name="settings_material_design_credit">• Google Material Design Team for design principles\n</string>
     <string name="settings_bullet_point">•</string>
@@ -2204,7 +2204,7 @@
     <string name="settings_audio_routing_default">Default</string>
     <string name="settings_audio_routing_app">App</string>
     <string name="settings_audio_routing_system">System</string>
-    <string name="settings_audio_routing_app_desc">Rhythm handles audio directly — bit-perfect mode enabled for native sample rate output to your DAC. Restart required.</string>
+    <string name="settings_audio_routing_app_desc">Glossy handles audio directly — bit-perfect mode enabled for native sample rate output to your DAC. Restart required.</string>
     <string name="settings_audio_routing_system_desc">Uses Android system audio routing. Audio may be resampled to 48 kHz by the OS mixer.</string>
     <string name="settings_audio_routing_default_desc">Android decides how to route audio. Resampling depends on system settings.</string>
 
@@ -2269,7 +2269,7 @@
     <string name="settings_enable_updates">Enable Updates</string>
     <string name="settings_enable_updates_desc">Allow the app to check for and download updates</string>
     <string name="settings_periodic_check">Periodic Check</string>
-    <string name="settings_periodic_check_desc">Automatically check for updates from Rhythm\'s GitHub repo</string>
+    <string name="settings_periodic_check_desc">Automatically check for updates from Rhythm-m3\'s GitHub repo</string>
     <string name="settings_update_notifications">Update Notifications</string>
     <string name="settings_update_notifications_desc">Get notified when new versions are available</string>
     <string name="settings_smart_polling">Smart Polling</string>
@@ -2328,9 +2328,9 @@
     <string name="settings_restore_file">Restore from File</string>
     <string name="settings_restore_file_desc">Import backup from a JSON file</string>
     <string name="settings_backup_success_title">Backup Created Successfully</string>
-    <string name="settings_backup_success_message">Your complete Rhythm backup has been created including:\n\n• All app settings and preferences\n• Library configuration\n• Theme customization\n\nThe backup has been saved and also copied to your clipboard for easy sharing.</string>
+    <string name="settings_backup_success_message">Your complete Glossy backup has been created including:\n\n• All app settings and preferences\n• Library configuration\n• Theme customization\n\nThe backup has been saved and also copied to your clipboard for easy sharing.</string>
     <string name="settings_restore_success_title">Restore Completed Successfully</string>
-    <string name="settings_restore_success_message">Your Rhythm data has been restored successfully including:\n\n• All app settings and preferences\n• Library configuration\n• Theme customization\n\nPlease restart the app for all changes to take full effect.</string>
+    <string name="settings_restore_success_message">Your Glossy data has been restored successfully including:\n\n• All app settings and preferences\n• Library configuration\n• Theme customization\n\nPlease restart the app for all changes to take full effect.</string>
     <string name="settings_restart_now">Restart Now</string>
 
     <!-- Library Tab Order -->
@@ -2582,7 +2582,7 @@
     <string name="exp_test_crash_desc">Forcibly crash the app to test crash handling and reporting</string>
     <string name="exp_third_party_integrations">Third-Party Integrations</string>
     <string name="settings_backup_created">Backup Created Successfully</string>
-    <string name="settings_backup_created_body">Your complete Rhythm backup has been created.</string>
+    <string name="settings_backup_created_body">Your complete Glossy backup has been created.</string>
     <string name="settings_backup_enabled">Enabled</string>
     <string name="settings_backup_manual">Manual</string>
     <string name="settings_backup_settings">Settings</string>
@@ -2594,9 +2594,9 @@
     <string name="settings_left_aligned">Left aligned</string>
     <string name="settings_player">Player</string>
     <string name="settings_restore_completed">Restore Completed Successfully</string>
-    <string name="settings_restore_completed_body">Your Rhythm data has been restored successfully.</string>
+    <string name="settings_restore_completed_body">Your Glossy data has been restored successfully.</string>
     <string name="settings_right_aligned">Right aligned</string>
-    <string name="settings_tab_order">Library Tab Order</string>
+    <string name="settings_tab_order">Library Tab Order</strin\u003Cstring name=\"settings_lyrics_source_header\">Lyrics Source\u003C/string>g>
 
     <!-- Theme, CrashLog, Home, Lyrics, Shapes, API Strings -->
     <string name="settings_crash_log">Crash Log History</string>
