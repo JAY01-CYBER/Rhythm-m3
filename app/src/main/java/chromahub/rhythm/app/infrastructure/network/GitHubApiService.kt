@@ -117,10 +117,11 @@ suspend fun getReleasesWithHeaders(
      * @return The latest release or 304 if not modified
      */
     @GET("repos/{owner}/{repo}/releases/latest")
-    suspend fun getLatestReleaseWithHeaders(
-        @Path("owner") owner: String,
-        @Path("repo") repo: String,
-        @Header("If-None-Match") ifNoneMatch: String? = null,
-        @Header("If-Modified-Since") ifModifiedSince: String? = null
-    ): Response<GitHubRelease>
+suspend fun getLatestReleaseWithHeaders(
+    @Path("owner") owner: String,
+    @Path("repo") repo: String,
+    @Header("Authorization") authToken: String? = null,
+    @Header("If-None-Match") ifNoneMatch: String? = null,
+    @Header("If-Modified-Since") ifModifiedSince: String? = null
+): Response<GitHubRelease>
 } 
