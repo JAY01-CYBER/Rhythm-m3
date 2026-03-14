@@ -1571,7 +1571,7 @@
     
     <!-- Service Notifications -->
     <string name="service_app_updates">App Updates</string>
-    <string name="service_rhythm_music">Rhythm Music</string>
+    <string name="service_rhythm_music">Glossy Music</string>
     <string name="service_starting">Starting service…</string>
     <string name="service_loading_settings">Loading settings…</string>
     <string name="service_setup_components">Setting up components…</string>
