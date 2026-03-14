@@ -1231,7 +1231,7 @@
     <string name="settings_crash_log_history_desc">Crash reports</string>
     <string name="settings_experimental_features">Experimental Features</string>
     <string name="settings_experimental_features_desc">Cutting-edge features</string>
-    <string name="settings_select_option">Rhythm Settings</string>
+    <string name="settings_select_option">Glossy Settings</string>
     <string name="settings_select_option_desc">Choose a setting from the list to configure</string>
     
     <!-- Playlist Actions -->
@@ -2553,7 +2553,7 @@
     <string name="scan_progress">%1$d / %2$d</string>
 
     <!-- Settings Search -->
-    <string name="search_settings_hint">Search Rhythm Settings…</string>
+    <string name="search_settings_hint">Search Glossy Settings…</string>
     <string name="clear_search">Clear search</string>
     <string name="no_results_found">No results found</string>
     <string name="try_different_search">Try a different search term</string>
