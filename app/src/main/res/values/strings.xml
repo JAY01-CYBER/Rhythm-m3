@@ -423,7 +423,7 @@
     
     <!-- Storage Permission -->
     <string name="storage_permission_required">Storage Permission Required</string>
-    <string name="storage_permission_desc">To browse your music files and explore your device\'s storage, Rhythm needs permission to access your files and media.</string>
+    <string name="storage_permission_desc">To browse your music files and explore your device\'s storage, Glossy needs permission to access your files and media.</string>
     <string name="storage_permission_audio_only">This allows access only to audio files and folders containing music.</string>
     
     <!-- PlayerScreen -->
