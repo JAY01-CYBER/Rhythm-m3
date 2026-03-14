@@ -2015,7 +2015,7 @@
     <string name="button_export">Export</string>
     <string name="text_file">File</string>
     <string name="text_paste">Paste</string>
-    <string name="logo_content_desc">Rhythm Logo</string>
+    <string name="logo_content_desc">Glossy Logo</string>
     
     <!-- PlaceholderScreens - Settings Labels -->
     <string name="settings_about_lyrics">About Lyrics Sources</string>
