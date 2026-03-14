@@ -142,15 +142,15 @@ android {
         abi {
             isEnable = true
             reset()
-            include("arm64-v8a", "armeabi-v7a", "x86_64", "x86")
-            isUniversalApk = true // also keep a universal APK for IzzyOnDroid/F-Droid
+            include("arm64-v8a", "armeabi-v7a")
+            isUniversalApk = true 
         }
     }
 
     applicationVariants.all {
         outputs.all {
             (this as com.android.build.gradle.internal.api.BaseVariantOutputImpl).outputFileName =
-                "Rhythm-${defaultConfig.versionName}-${name}.apk"
+                "Glossy-${defaultConfig.versionName}-${name}.apk"
         }
     }
 }
