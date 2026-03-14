@@ -97,13 +97,14 @@ suspend fun getLatestRelease(
      * @return List of releases or 304 if not modified
      */
     @GET("repos/{owner}/{repo}/releases")
-    suspend fun getReleasesWithHeaders(
-        @Path("owner") owner: String,
-        @Path("repo") repo: String,
-        @Query("per_page") perPage: Int = 10,
-        @Header("If-None-Match") ifNoneMatch: String? = null,
-        @Header("If-Modified-Since") ifModifiedSince: String? = null
-    ): Response<List<GitHubRelease>>
+suspend fun getReleasesWithHeaders(
+    @Path("owner") owner: String,
+    @Path("repo") repo: String,
+    @Query("per_page") perPage: Int = 10,
+    @Header("Authorization") authToken: String? = null,
+    @Header("If-None-Match") ifNoneMatch: String? = null,
+    @Header("If-Modified-Since") ifModifiedSince: String? = null
+): Response<List<GitHubRelease>>
     
     /**
      * Fetch only the latest release with conditional request headers for smart polling
