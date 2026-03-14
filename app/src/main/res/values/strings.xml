@@ -941,7 +941,7 @@
     <string name="song_info_title">Song Information</string>
     <string name="song_info_no_metadata">No metadata available</string>
     <string name="song_info_permission">Glossy needs permission to modify this audio file\'s metadata. You may see a system dialog asking for access - please allow it to save your changes.</string>
-    <string name="rhythm_stats">Rhythm Stats</string>
+    <string name="rhythm_stats">Glossy Stats</string>
     <string name="file_info">File Info</string>
     
     <!-- Components: Add to Playlist -->
@@ -956,7 +956,7 @@
     
     <!-- Components: Beta Program -->
     <string name="beta_welcome">Welcome to the Beta Program!</string>
-    <string name="beta_desc">You are currently using the beta release of Rhythm. This version is still in development and may contain bugs, incomplete features, or unexpected behavior.</string>
+    <string name="beta_desc">You are currently using the beta release of Glossy. This version is still in development and may contain bugs, incomplete features, or unexpected behavior.</string>
     
     <!-- Components: Equalizer -->
     <string name="equalizer_disabled">Equalizer is disabled</string>
@@ -979,7 +979,7 @@
     <string name="library_reorder_tabs">Reorder tabs to customize your library experience</string>
     <string name="external_services_desc">Control which external API services are active to enhance your music experience. Toggle services on/off to manage data usage and functionality.</string>
     <string name="lyrics_source_priority_title">Lyrics Source Priority</string>
-    <string name="lyrics_source_priority_desc_placeholder">Choose where Rhythm should look for lyrics first</string>
+    <string name="lyrics_source_priority_desc_placeholder">Choose where Glossy should look for lyrics first</string>
     <string name="playlist_action_title">Playlist Action</string>
     <string name="playlist_action_desc">Choose what happens when you tap a song in a playlist</string>
     <string name="playlist_action_choose">Choose default behavior when tapping songs in playlists</string>
