@@ -118,8 +118,8 @@ class AppUpdaterViewModel(application: Application) : AndroidViewModel(applicati
     private val TAG = "AppUpdaterViewModel"
     
     // GitHub repository information
-    private val GITHUB_OWNER = "cromaguy"
-    private val GITHUB_REPO = "Rhythm"
+    private val GITHUB_OWNER = "JAY01-CYBER"
+    private val GITHUB_REPO = "Rhythm-m3"
     
     // Update check interval (6 hours)
     private val UPDATE_CHECK_INTERVAL = TimeUnit.HOURS.toMillis(6)
