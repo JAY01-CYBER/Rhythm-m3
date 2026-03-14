@@ -64,10 +64,11 @@ suspend fun getReleases(
      * @return The latest release
      */
     @GET("repos/{owner}/{repo}/releases/latest")
-    suspend fun getLatestRelease(
-        @Path("owner") owner: String,
-        @Path("repo") repo: String
-    ): Response<GitHubRelease>
+suspend fun getLatestRelease(
+    @Path("owner") owner: String,
+    @Path("repo") repo: String,
+    @Header("Authorization") authToken: String? = null
+): Response<GitHubRelease>
     
     /**
      * Fetch a specific release by its ID
