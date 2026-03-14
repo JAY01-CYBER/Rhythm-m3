@@ -1755,7 +1755,7 @@
     <string name="artist_group_by_album_artist">Group by Album Artist</string>
     <string name="artist_group_by_album_artist_desc">Show collaboration albums under main artist</string>
     <string name="artist_about_multi_parsing">About Multi-Artist Parsing</string>
-    <string name="artist_parsing_description">When enabled, Rhythm will automatically split artist tags containing multiple artists. This is useful for songs downloaded with yt-dlp or other tools that use delimiters like \'/\' to separate artists.\n\nBackslash (\\\\) can be used to escape delimiters.</string>
+    <string name="artist_parsing_description">When enabled, Glossy will automatically split artist tags containing multiple artists. This is useful for songs downloaded with yt-dlp or other tools that use delimiters like \'/\' to separate artists.\n\nBackslash (\\\\) can be used to escape delimiters.</string>
     <string name="artist_examples">Examples</string>
     <string name="artist_select_separators">Select artist separators</string>
     <string name="artist_delimiter_slash">Slash</string>
