@@ -364,7 +364,12 @@ class AppUpdaterViewModel(application: Application) : AndroidViewModel(applicati
             _latestVersion.value = null  // Clear any previous version data
             
             try {
-                val releasesResponse = gitHubApiService.getReleases(GITHUB_OWNER, GITHUB_REPO)
+                val releasesResponse = gitHubApiService.getReleases(
+    GITHUB_OWNER,
+    GITHUB_REPO,
+    10,
+    GITHUB_TOKEN
+)
                 
                 if (releasesResponse.isSuccessful) {
                     val allReleases = releasesResponse.body()
