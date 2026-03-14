@@ -47,7 +47,7 @@
     <string name="widget_auto_update">Auto Update</string>
     <string name="widget_auto_update_desc">Automatically update widget when song changes</string>
     <string name="widget_tips_title">Widget Tips</string>
-    <string name="widget_tip_sizes">Rhythm supports multiple widget sizes from 2x1 to 5x5</string>
+    <string name="widget_tip_sizes">Glossy supports multiple widget sizes from 2x1 to 5x5</string>
     <string name="widget_tip_types">Both legacy and modern Glance widgets are available</string>
     <string name="widget_tip_controls">Tap the widget to open the app, buttons control playback</string>
     <string name="widget_tip_resize">Long-press and resize for different layouts</string>
