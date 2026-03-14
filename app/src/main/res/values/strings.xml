@@ -1619,11 +1619,11 @@
     <string name="settings_lossless_artwork_desc">Full-quality cover art, no downscaling. Uses more memory.</string>
     <string name="settings_artist_parsing">Artists</string>
     <string name="settings_artist_parsing_desc">Separators, display</string>
-    <string name="settings_rhythm_stats">Rhythm Stats</string>
+    <string name="settings_rhythm_stats">Glossy Stats</string>
     <string name="settings_rhythm_stats_desc">Play count, trends</string>
     
     <!-- Rhythm Stats Screen -->
-    <string name="stats_title">Rhythm Stats</string>
+    <string name="stats_title">Glossy Stats</string>
     <string name="stats_today">Today</string>
     <string name="stats_this_week">This Week</string>
     <string name="stats_this_month">This Month</string>
