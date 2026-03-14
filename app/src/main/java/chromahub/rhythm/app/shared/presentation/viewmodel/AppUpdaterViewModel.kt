@@ -665,7 +665,7 @@ class AppUpdaterViewModel(application: Application) : AndroidViewModel(applicati
                     "Bug fixes and optimizations"
                 ),
                 knownIssues = emptyList(),
-                downloadUrl = "https://github.com/cromaguy/Rhythm/releases",
+                downloadUrl = "https://github.com/JAY01-CYBER/Rhythm-m3/releases",
                 apkAssetName = "rhythm-release.apk",
                 apkSize = 0,
                 releaseNotes = "Test update",
