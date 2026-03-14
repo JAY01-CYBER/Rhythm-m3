@@ -2596,7 +2596,7 @@
     <string name="settings_restore_completed">Restore Completed Successfully</string>
     <string name="settings_restore_completed_body">Your Glossy data has been restored successfully.</string>
     <string name="settings_right_aligned">Right aligned</string>
-    <string name="settings_tab_order">Library Tab Order</strin\u003Cstring name=\"settings_lyrics_source_header\">Lyrics Source\u003C/string>g>
+    <string name="settings_tab_order">Library Tab Order</string>
 
     <!-- Theme, CrashLog, Home, Lyrics, Shapes, API Strings -->
     <string name="settings_crash_log">Crash Log History</string>
